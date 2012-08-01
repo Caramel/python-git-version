@@ -14,6 +14,7 @@ setup(
 	),
 	
 	packages=find_packages(),
+	zip_safe=True,
 	
 	entry_points = {
 	},

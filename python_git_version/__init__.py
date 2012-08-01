@@ -4,6 +4,7 @@
 """
 
 __all__ = [
+	'get',
 	'get_git_version'
 ]
 
@@ -85,6 +86,5 @@ def get_git_version(package):
 	
 	return version
 
-
-	
+get = get_git_version
 
