@@ -1,5 +1,11 @@
 """
+python_git_version/__init__.py - Main functionality of python-git-version
+Copyright 2012-2013 Caramel <http://www.caramel.com.au/>
 
+Released under the MIT license, see COPYING for details.
+
+Adapted from version.py by Douglas Creager, released into the public domain:
+https://gist.github.com/2567778
 
 """
 
@@ -14,7 +20,6 @@ from os.path import join
 def pep386_adapt(version):
 	"""
 	Adapt git-describe version to be in line with PEP 386.
-	By ilogue: https://gist.github.com/2567778
 
 	"""
 	if version != None and '-' in version:
